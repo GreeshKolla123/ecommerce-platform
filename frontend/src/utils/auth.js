@@ -1,0 +1,1 @@
+import api from './api.js';const authenticate = async (username, password) => {try {const response = await api.post('/login', { username, password });localStorage.setItem('user', JSON.stringify(response.data));return response.data;} catch (error) {console.error(error);return null;}};const logout = () => {localStorage.removeItem('user');};export { authenticate, logout; }
