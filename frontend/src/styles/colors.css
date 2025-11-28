@@ -1,0 +1,11 @@
+/* Colors */
+
+:root {
+  --primary-color: rgba(59, 130, 246, 1);
+  --secondary-color: rgba(16, 185, 129, 1);
+  --error-color: rgba(239, 68, 68, 1);
+  --warning-color: rgba(245, 158, 11, 1);
+  --success-color: rgba(139, 92, 246, 1);
+  --dark-color: rgba(17, 24, 39, 1);
+  --light-color: rgba(255, 255, 255, 1);
+}
