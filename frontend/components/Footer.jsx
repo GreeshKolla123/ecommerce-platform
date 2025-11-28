@@ -1,0 +1,1 @@
+import React from 'react';function Footer() {return (<footer className="footer"><p className="footer-text">Copyright 2023 Ecommerce Platform</p></footer>);}
