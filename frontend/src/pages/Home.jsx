@@ -1,0 +1,1 @@
+import React from 'react';function Home() {return (<div className="container mx-auto p-4"><h1 className="text-3xl font-bold">Welcome to E-commerce Platform</h1><p className="text-lg">This is a comprehensive e-commerce platform with user authentication, product catalog, shopping cart, order management, and admin panel.</p></div>);}
