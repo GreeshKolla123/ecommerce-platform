@@ -1,0 +1,1 @@
+import React from 'react';function Hero() {return (<section className="hero"><h1 className="hero-title">Ecommerce Platform</h1><p className="hero-description">Welcome to our ecommerce platform.</p><button className="hero-button">Get Started</button></section>);}
