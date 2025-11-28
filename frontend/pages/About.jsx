@@ -1,0 +1,1 @@
+import React from 'react';function About() {return (<div className="about"><h1 className="about-title">About Us</h1><p className="about-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>);}
