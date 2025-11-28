@@ -1,0 +1,1 @@
+import React from 'react';function Form() {return (<form className="form"><label className="form-label">Label</label><input type="text" className="form-input" /><button type="submit" className="form-button">Submit</button></form>);}
