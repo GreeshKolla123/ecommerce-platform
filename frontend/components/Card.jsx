@@ -1,0 +1,1 @@
+import React from 'react';function Card() {return (<div className="card"><h2 className="card-title">Card Title</h2><p className="card-description">Card description.</p><button className="card-button">Learn More</button></div>);}
