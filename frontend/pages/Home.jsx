@@ -1,0 +1,1 @@
+import React from 'react';import Hero from '../components/Hero.jsx';import Card from '../components/Card.jsx';function Home() {return (<div className="home"><Hero /><Card /></div>);}
