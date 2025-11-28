@@ -1,0 +1,1 @@
+import React from 'react';function Blog() {return (<div className="container mx-auto p-4"><h1 className="text-3xl font-bold">Blog</h1><p className="text-lg">This is our blog where we share our knowledge and experiences about e-commerce and web development.</p></div>);}
