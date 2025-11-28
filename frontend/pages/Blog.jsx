@@ -1,0 +1,1 @@
+import React from 'react';function Blog() {return (<div className="blog"><h1 className="blog-title">Blog</h1><p className="blog-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>);}
