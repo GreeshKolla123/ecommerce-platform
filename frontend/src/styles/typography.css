@@ -1,0 +1,19 @@
+/* Typography */
+
+h1 {
+  font-family: Inter, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: Inter, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+p {
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
