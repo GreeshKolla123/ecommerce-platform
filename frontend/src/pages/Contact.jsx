@@ -1,0 +1,1 @@
+import React from 'react';function Contact() {return (<div className="container mx-auto p-4"><h1 className="text-3xl font-bold">Contact Us</h1><p className="text-lg">If you have any questions or need help with our platform, please don't hesitate to contact us.</p></div>);}
