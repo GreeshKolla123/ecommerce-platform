@@ -1,20 +1,8 @@
 from fastapi import FastAPI
-from fastapi.middleware.cors import CORSMiddleware
-from app.routers import auth, products, cart, orders, admin
+from dotenv import load_dotenv
+from app.config import settings
+from app.routes import router
 
+load_dotenv()
 app = FastAPI()
-
-origins = [
-    "http://localhost:3000",
-    "http://localhost:8000",
-]
-
-app.add_middleware(
-    CORSMiddleware, allow_origins=origins, allow_credentials=True, allow_methods=["*"], allow_headers=["*"],
-)
-
-app.include_router(auth.router)
-app.include_router(products.router)
-app.include_router(cart.router)
-app.include_router(orders.router)
-app.include_router(admin.router)
+app.include_router(router)
