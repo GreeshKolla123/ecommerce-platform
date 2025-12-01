@@ -1,14 +1,16 @@
-import React from 'react';
+import React from 'react'
 
 function Card() {
   return (
-    <div>
-      <h2>Product Name</h2>
-      <p>Product Description</p>
-      <p>Price: $10.99</p>
-      <button>Add to Cart</button>
+    <div style={{
+      backgroundColor: 'rgba(255, 255, 255, 1)',
+      padding: '20px',
+      borderRadius: '10px',
+      boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)'
+    }}>
+      Card Content
     </div>
-  );
+  )
 }
 
-export default Card;
+export default Card
