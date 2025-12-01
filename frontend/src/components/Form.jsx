@@ -1,19 +1,13 @@
-import React from 'react';
+import React from 'react'
 
 function Form() {
   return (
     <form>
-      <label>
-        Name:
-        <input type="text" />
-      </label>
-      <label>
-        Email:
-        <input type="email" />
-      </label>
-      <button>Submit</button>
+      <input type="text" placeholder="Name" />
+      <input type="email" placeholder="Email" />
+      <button type="submit">Submit</button>
     </form>
-  );
+  )
 }
 
-export default Form;
+export default Form
