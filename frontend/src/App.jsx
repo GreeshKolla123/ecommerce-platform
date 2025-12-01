@@ -1,1 +1,21 @@
-import React, { useState, useEffect } from 'react';import { Routes, Route, Link } from 'react-router-dom';import Navigation from './components/Navigation.jsx';import Home from './pages/Home.jsx';import About from './pages/About.jsx';import Blog from './pages/Blog.jsx';import Contact from './pages/Contact.jsx';import Footer from './components/Footer.jsx';function App() {const [user, setUser] = useState(null);useEffect(() => {const storedUser = localStorage.getItem('user');if (storedUser) {setUser(JSON.parse(storedUser));}}, []);return (<><Navigation user={user} /><Routes><Route path="/" element={<Home />} /><Route path="/about" element={<About />} /><Route path="/blog" element={<Blog />} /><Route path="/contact" element={<Contact />} /></Routes><Footer /></>);}
+import React from 'react'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Home from './pages/Home'
+import About from './pages/About'
+import Blog from './pages/Blog'
+import Contact from './pages/Contact'
+
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </BrowserRouter>
+  )
+}
+
+export default App
