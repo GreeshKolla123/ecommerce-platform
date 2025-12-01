@@ -1,1 +1,16 @@
-{"name": "ecommerce-platform", "version": "1.0.0", "dependencies": {"react": "^18.2.0", "react-dom": "^18.2.0", "react-router-dom": "^6.4.2", "@vitejs/plugin-react": "^2.1.1"}, "devDependencies": {"@types/react": "^18.0.21", "@types/react-dom": "^18.0.6", "@types/react-router-dom": "^5.3.3", "vite": "^3.1.0"}}
+{
+  "name": "ecommerce-platform",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite serve"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "vite": "^5.0.0",
+    "@vitejs/plugin-react": "^4.0.0"
+  },
+  "devDependencies": {}
+}
