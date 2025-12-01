@@ -1,12 +1,17 @@
-import React from 'react';
+import React from 'react'
 
 function Hero() {
   return (
-    <section>
-      <h1>Welcome to our e-commerce platform!</h1>
-      <p>This is the hero section.</p>
-    </section>
-  );
+    <div style={{
+      backgroundColor: 'rgba(59, 130, 246, 1)',
+      color: 'rgba(255, 255, 255, 1)',
+      padding: '20px',
+      fontSize: '32px',
+      fontWeight: '700'
+    }}>
+      Hero Section
+    </div>
+  )
 }
 
-export default Hero;
+export default Hero
