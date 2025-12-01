@@ -1,1 +1,17 @@
-import React from 'react';function Footer() {return (<footer className="bg-gray-200 py-4"><div className="container mx-auto flex justify-between items-center"><p className="text-gray-600">&copy; 2023 E-commerce Platform</p><ul className="flex items-center justify-end"><li className="mr-6"><a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900">Facebook</a></li><li className="mr-6"><a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900">Instagram</a></li><li className="mr-6"><a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900">Twitter</a></li></ul></div></footer>);}
+import React from 'react'
+
+function Footer() {
+  return (
+    <div style={{
+      backgroundColor: 'rgba(17, 24, 39, 1)',
+      color: 'rgba(255, 255, 255, 1)',
+      padding: '20px',
+      fontSize: '14px',
+      fontWeight: '400'
+    }}>
+      Footer
+    </div>
+  )
+}
+
+export default Footer
